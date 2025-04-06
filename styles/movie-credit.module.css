@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.credit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
